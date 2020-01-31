@@ -31,6 +31,8 @@ module.exports = {
                     './notes-http/http-code',
                     './notes-http/http-load',
                     './notes-http/http-writepost',
+                    './notes-http/ajax',
+                    './notes-http/json'
                 ]
             },
             {
@@ -75,7 +77,18 @@ module.exports = {
                 collapsable: true,
                 sidebarDepth: 2,
                 children: [
-                    './notes-dom/dom'
+                    './notes-dom/dom',
+                    './notes-dom/node',
+                ]
+            },
+            {
+                title: '对象',
+                path: '/notes-object/',
+                collapsable: true,
+                sidebarDepth: 2,
+                children: [
+                    './notes-object/prototype-one',
+                    './notes-object/this-newfn',
                 ]
             },
             {
@@ -85,7 +98,8 @@ module.exports = {
                 sidebarDepth: 2,
                 children: [
                     './notes-function/function-name',
-                    './notes-function/function-method'
+                    './notes-function/function-method',
+                    './notes-function/function-immediate'
                 ]
             },
             {
@@ -103,7 +117,8 @@ module.exports = {
                 collapsable: true,
                 sidebarDepth: 2,
                 children: [
-                    './notes-es6/promise-one'
+                    './notes-es6/promise-one',
+                    './notes-es6/code-block'
                 ]
             },
             {
