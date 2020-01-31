@@ -32,7 +32,8 @@ module.exports = {
                     './notes-http/http-load',
                     './notes-http/http-writepost',
                     './notes-http/ajax',
-                    './notes-http/json'
+                    './notes-http/json',
+                    './notes-http/jsonp'
                 ]
             },
             {
@@ -118,7 +119,8 @@ module.exports = {
                 sidebarDepth: 2,
                 children: [
                     './notes-es6/promise-one',
-                    './notes-es6/code-block'
+                    './notes-es6/code-block',
+                    './notes-es6/class'
                 ]
             },
             {
