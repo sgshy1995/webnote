@@ -23,6 +23,99 @@ module.exports = {
                 sidebarDepth: 2
             },
             {
+                title: 'HTTP',
+                path: '/notes-http/',
+                collapsable: true,
+                sidebarDepth: 2,
+                children: [
+                    './notes-http/http-code',
+                    './notes-http/http-load',
+                    './notes-http/http-writepost',
+                ]
+            },
+            {
+                title: '排序算法',
+                path: '/notes-sort-algorithm/',
+                collapsable: true,
+                sidebarDepth: 2,
+                children: [
+                    './notes-sort-algorithm/sort-three'
+                ]
+            },
+            {
+                title: 'HTML',
+                path: '/notes-html/',
+                collapsable: true,
+                sidebarDepth: 2,
+                children: [
+                    './notes-html/html-write'
+                ]
+            },
+            {
+                title: 'CSS',
+                path: '/notes-css/',
+                collapsable: true,
+                sidebarDepth: 2,
+                children: [
+                    './notes-css/css3-radius-boxshadow'
+                ]
+            },
+            {
+                title: '移动适配',
+                path: '/notes-mobile/',
+                collapsable: true,
+                sidebarDepth: 2,
+                children: [
+                    './notes-mobile/mobile-adaptive'
+                ]
+            },
+            {
+                title: 'DOM',
+                path: '/notes-function/',
+                collapsable: true,
+                sidebarDepth: 2,
+                children: [
+                    './notes-dom/dom'
+                ]
+            },
+            {
+                title: '函数',
+                path: '/notes-function/',
+                collapsable: true,
+                sidebarDepth: 2,
+                children: [
+                    './notes-function/function-name',
+                    './notes-function/function-method'
+                ]
+            },
+            {
+                title: '数组',
+                path: '/notes-array/',
+                collapsable: true,
+                sidebarDepth: 2,
+                children: [
+                    './notes-array/array-norepeat',
+                ]
+            },
+            {
+                title: 'ES6',
+                path: '/notes-es6/',
+                collapsable: true,
+                sidebarDepth: 2,
+                children: [
+                    './notes-es6/promise-one'
+                ]
+            },
+            {
+                title: '设计模式',
+                path: '/notes-design-mode/',
+                collapsable: true,
+                sidebarDepth: 2,
+                children: [
+                    './notes-design-mode/mvc-one'
+                ]
+            },
+            {
                 title: 'Vue',
                 path: '/notes-vue/',
                 collapsable: true,
