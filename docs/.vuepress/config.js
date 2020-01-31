@@ -100,7 +100,8 @@ module.exports = {
                 children: [
                     './notes-function/function-name',
                     './notes-function/function-method',
-                    './notes-function/function-immediate'
+                    './notes-function/function-immediate',
+                    './notes-function/async'
                 ]
             },
             {
