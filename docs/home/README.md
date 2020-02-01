@@ -13,6 +13,8 @@ title: 首页
 - 个人项目
 - 个人笔记
 
+而其他的一些记录、总结、想法，请翻阅 [我的博客](https://eden-sheng.cn)。
+
 欢迎与我联系：
 
 Email: singlesaulwork@gmail.com
