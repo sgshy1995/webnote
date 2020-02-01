@@ -25,9 +25,9 @@ function asyncMethod(){
     return new Promise(function (resolve, reject){
         setTimeout(function(){
             //成功则调用 resolve
-            console.log(resolve)
+            resolve('成功了')
             //失败则调用 reject
-            console.log(reject)
+            reject('失败了')
         },3000)
     })
 }
@@ -35,7 +35,9 @@ function asyncMethod(){
 
 ## 关于 promise
 
-promise 并不是前端发明，只是借鉴并总结为规范。Promise 是目前前端解决异步问题的统一方案。
+promise 并不是前端发明，只是借鉴并总结为规范。
+
+***Promise 对象用于表示一个异步操作的最终完成 (或失败), 及其结果值。Promise 是目前前端解决异步问题的统一方案。***
 
 `window.Promise` 是一个全局函数，可以用来构造 Promise 对象。使用 `return new Promise((resolve, reject)=> {})` 就可以构造一个 Promise 对象，构造出来的 Promise 对象含有一个 `.then()` 函数属性
 
@@ -51,8 +53,12 @@ Promise实例生成以后，可以用 `then` 方法分别指定 `resolved` 状�
 
 也就是说，`resolve` 和 `reject` 并不是 `.then(succes, fail)` 里面的 `success` 和 `fail`，`resolve` 会去调用 `success`，`reject` 会去调用 `fail`。
 
-## 链式操作
+## `.then()` 方法
+
+`Promise.prototype.then()`
+
+`then()` 方法返回一个 Promise。它最多需要有两个参数：Promise 的成功和失败情况的回调函数。可以链式操作。
 
 ```js
-xxx().then(success, fail).then(success, fail)
+asyncMethod().then(success, fail).then(success, fail)
 ```

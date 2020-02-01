@@ -105,7 +105,8 @@ module.exports = {
                     './notes-function/function-name',
                     './notes-function/function-method',
                     './notes-function/function-immediate',
-                    './notes-function/async'
+                    './notes-function/async',
+                    './notes-function/closure'
                 ]
             },
             {
@@ -115,6 +116,7 @@ module.exports = {
                 sidebarDepth: 2,
                 children: [
                     './notes-array/array-norepeat',
+                    './notes-array/array-sort',
                 ]
             },
             {
@@ -124,6 +126,8 @@ module.exports = {
                 sidebarDepth: 2,
                 children: [
                     './notes-es6/promise-one',
+                    './notes-es6/promise-all',
+                    './notes-es6/promise-race',
                     './notes-es6/code-block',
                     './notes-es6/class'
                 ]
