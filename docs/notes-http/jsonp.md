@@ -14,6 +14,18 @@ JSONP (JSON with Padding) 是可用于解决主流浏览器的跨域数据访问
 
 这个过程就是 JSONP。
 
+## 主要作用
+
+兼容 IE。
+
+可以跨域。
+
+## JSONP 缺点
+
+1. JSONP 是通过动态创建 script 实现的。动态创建 script 时只能用 get 不能用 post。
+
+2. 无法读取到像 AJAX 一样精确的状态，只能知道成功或失败。
+
 ## 举例
 
 扣钱功能。
@@ -65,9 +77,3 @@ else if (path === '/pay') {
     response.end()
 }
 ```
-
-## JSONP 为什么不支持 POST
-
-1.JSONP 是通过动态创建 script 实现的。
-
-2.动态创建 script 时只能用 get 不能用 post。

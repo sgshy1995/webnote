@@ -4,7 +4,7 @@ title: JSON
 
 ## JSON
 
-JSON 是一中语言。 JSON (JavaScript Object Natation)。
+JSON 是一种语言。 JSON (JavaScript Object Natation)。
 
 ## JSON 与 JS 关系
 

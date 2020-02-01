@@ -33,6 +33,8 @@ module.exports = {
                     './notes-http/http-writepost',
                     './notes-http/ajax',
                     './notes-http/json',
+                    './notes-http/cross-domain',
+                    './notes-http/cors',
                     './notes-http/jsonp'
                 ]
             },
@@ -80,6 +82,7 @@ module.exports = {
                 children: [
                     './notes-dom/dom',
                     './notes-dom/node',
+                    './notes-dom/don-event',
                 ]
             },
             {
@@ -90,6 +93,7 @@ module.exports = {
                 children: [
                     './notes-object/prototype-one',
                     './notes-object/this-newfn',
+                    './notes-object/inherit',
                 ]
             },
             {
