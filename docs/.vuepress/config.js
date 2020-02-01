@@ -82,7 +82,7 @@ module.exports = {
                 children: [
                     './notes-dom/dom',
                     './notes-dom/node',
-                    './notes-dom/don-event',
+                    './notes-dom/dom-event',
                 ]
             },
             {
