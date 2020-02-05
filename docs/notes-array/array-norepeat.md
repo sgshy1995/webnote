@@ -2,9 +2,9 @@
 title: 如何数组去重
 ---
 
-## 两种方式
+## 三种方式
 
-用两种方式数组去重，包括 ES6 新语法。
+用三种方式数组去重，包括 ES6 新语法。
 
 要求：
 
@@ -18,8 +18,6 @@ title: 如何数组去重
 ES5：
 
 ```js
-array = [1,5,2,3,4,2,3,1,3,4]
-
 function unique(array) {
     var tempArr = []
     var hash = {}
@@ -32,21 +30,55 @@ function unique(array) {
     return tempArr
 }
 
+const array = [1,5,2,3,4,2,3,1,3,4]
+
 unique(array) 
 //[1,5,2,3,4]
 ```
+
+***缺点：*** 只支持数字或者字符串数组，如果数组里面有对象，比如 array = [{number:1}, 2]，就会出错。
 
 ## 使用 set
 
 ES6:
 
 ```js
-array = [1,5,2,3,4,2,3,1,3,4]
-
 function unique(array) {
     return [...new Set(array)]
+    // 或者 return Array.from(new Set(array))
 }
+
+const array = [1,5,2,3,4,2,3,1,3,4]
 
 unique(array) 
 // [1,5,2,3,4]
 ```
+
+***缺点：*** 语法太新，IE不支持。
+
+## 使用 Map
+
+ES6：
+
+```js
+unique = (array) => {
+    let newArray = []
+    let map = new Map()
+    for (let i = 0; i < array.length; i++){
+        if (map.has(array[i])) {
+            continue
+        } else {
+            newArray.push(array[i])
+            map.set(array[i],'marked')
+        }
+    }
+    return newArray
+}
+
+const array = [1,5,2,3,4,2,3,1,3,4]
+
+unique(array)
+// [1,5,2,3,4]
+```
+
+***缺点：*** 语法太新，IE不支持。
