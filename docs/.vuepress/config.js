@@ -53,7 +53,10 @@ module.exports = {
                 collapsable: true,
                 sidebarDepth: 2,
                 children: [
-                    './notes-html/html-write'
+                    './notes-html/html-write',
+                    './notes-html/html-src-href',
+                    './notes-html/html-seo',
+                    './notes-html/html-html5'
                 ]
             },
             {
