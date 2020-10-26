@@ -101,6 +101,15 @@ module.exports = {
                 ]
             },
             {
+                title: '基础杂项',
+                path: '/notes-basic/',
+                collapsable: true,
+                sidebarDepth: 2,
+                children: [
+                    './notes-basic/js-import-require'
+                ]
+            },
+            {
                 title: '对象',
                 path: '/notes-object/',
                 collapsable: true,
@@ -122,6 +131,15 @@ module.exports = {
                     './notes-function/function-immediate',
                     './notes-function/async',
                     './notes-function/closure'
+                ]
+            },
+            {
+                title: '事件',
+                path: '/notes-events/',
+                collapsable: true,
+                sidebarDepth: 2,
+                children: [
+                    './notes-events/event-entrust'
                 ]
             },
             {
