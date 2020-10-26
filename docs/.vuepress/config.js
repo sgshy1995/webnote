@@ -56,7 +56,12 @@ module.exports = {
                     './notes-html/html-write',
                     './notes-html/html-src-href',
                     './notes-html/html-seo',
-                    './notes-html/html-html5'
+                    './notes-html/html-html5',
+                    './notes-html/html-semantization',
+                    './notes-html/html-doctype',
+                    './notes-html/html-verification-code',
+                    './notes-html/html-compatibility',
+                    './notes-html/html-meta-viewport'
                 ]
             },
             {
