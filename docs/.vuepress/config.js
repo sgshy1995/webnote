@@ -70,7 +70,14 @@ module.exports = {
                 collapsable: true,
                 sidebarDepth: 2,
                 children: [
-                    './notes-css/css3-radius-boxshadow'
+                    './notes-css/css3-radius-boxshadow',
+                    './notes-css/css-box-size',
+                    './notes-css/css-none-ele',
+                    './notes-css/css-clear-float',
+                    './notes-css/css-import',
+                    './notes-css/css-selector',
+                    './notes-css/css-inline-block',
+                    './notes-css/css-vertical-center'
                 ]
             },
             {
