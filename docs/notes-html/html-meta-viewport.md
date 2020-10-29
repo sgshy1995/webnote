@@ -23,3 +23,13 @@ meta viewport 标签的作用是让当前 viewport 的宽度等于设备的宽�
 - ***height*** 设置 layout viewport 的高度，不重要，很少说明和使用。
 
 - ***user-scalable*** 是否允许用户进行手动缩放，值为 `no` 或 `yes`。yes 代表允许这些属性可以同时使用，也可以单独使用或混合使用，多个属性同时使用时用逗号隔开就行了。
+
+- ***viewport-cover*** 是为了控制文档是如何填充满屏幕的。
+
+## 淘宝网触屏版
+
+标准 meta 标签：
+
+```html
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+```

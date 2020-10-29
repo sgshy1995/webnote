@@ -35,7 +35,8 @@ module.exports = {
                     './notes-http/json',
                     './notes-http/cross-domain',
                     './notes-http/cors',
-                    './notes-http/jsonp'
+                    './notes-http/jsonp',
+                    './notes-http/browser-local-save'
                 ]
             },
             {
@@ -184,7 +185,8 @@ module.exports = {
                     '/notes-vue/vue-img-src',
                     '/notes-vue/vue-parcel-one',
                     '/notes-vue/vue-watch-computed',
-                    '/notes-vue/vue-watch'
+                    '/notes-vue/vue-watch',
+                    '/notes-vue/vue-global-variate'
                 ]
             },
         ]
