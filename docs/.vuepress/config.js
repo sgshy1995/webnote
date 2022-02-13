@@ -1,7 +1,7 @@
 module.exports = {
     base: '/webnote/',
     title: '云笔记',
-    description: '好用、强劲的UI框架',
+    description: '我的个人知识库，伴我成长',
     themeConfig: {
         logo: '/note.png',
         nav: [

@@ -12,5 +12,5 @@ features:
   details: 涉及各个板块的很多面试知识
 - title: 经验总结
   details: 面试中的经验总结
-footer: MIT Licensed | Copyright © 2020-present Eden Sheng
+footer: MIT Licensed | Copyright © 2021 Eden Sheng
 ---
