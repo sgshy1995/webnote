@@ -151,6 +151,7 @@ module.exports = {
                 children: [
                     './notes-array/array-norepeat',
                     './notes-array/array-sort',
+                    './notes-array/array-traverse'
                 ]
             },
             {
