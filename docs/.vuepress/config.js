@@ -36,7 +36,8 @@ module.exports = {
                     './notes-http/cross-domain',
                     './notes-http/cors',
                     './notes-http/jsonp',
-                    './notes-http/browser-local-save'
+                    './notes-http/browser-local-save',
+                    './notes-http/https'
                 ]
             },
             {
