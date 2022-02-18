@@ -79,7 +79,9 @@ module.exports = {
                     './notes-css/css-import',
                     './notes-css/css-selector',
                     './notes-css/css-inline-block',
-                    './notes-css/css-vertical-center'
+                    './notes-css/css-vertical-center',
+                    './notes-css/css-flex-3',
+                    './notes-css/css-bfc'
                 ]
             },
             {
@@ -100,6 +102,7 @@ module.exports = {
                     './notes-dom/dom',
                     './notes-dom/node',
                     './notes-dom/dom-event',
+                    './notes-dom/dom-reflow-repaint'
                 ]
             },
             {
@@ -152,7 +155,8 @@ module.exports = {
                 children: [
                     './notes-array/array-norepeat',
                     './notes-array/array-sort',
-                    './notes-array/array-traverse'
+                    './notes-array/array-traverse',
+                    './notes-array/array-map-foreach'
                 ]
             },
             {
