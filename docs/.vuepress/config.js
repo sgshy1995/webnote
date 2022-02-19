@@ -64,7 +64,8 @@ module.exports = {
                     './notes-html/html-doctype',
                     './notes-html/html-verification-code',
                     './notes-html/html-compatibility',
-                    './notes-html/html-meta-viewport'
+                    './notes-html/html-meta-viewport',
+                    './notes-html/html-canvas',
                 ]
             },
             {
