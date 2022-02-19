@@ -112,7 +112,7 @@ p {
 也没有触发 BFC 元素, width: 200px; height:200px; background: #eee;</div>
 ```
 
-![float_bfc](/webnote/images/float_bfc.jpg)
+![float_bfc](/images/float_bfc.jpg)
 
 第二个元素被第一个元素覆盖，如果想避免BFC，则触发第二个容器的BFC特性。
 
@@ -122,6 +122,6 @@ p {
 也没有触发 BFC 元素, width: 200px; height:200px; background: #eee;</div>
 ```
 
-![float_bfc_clear](/webnote/images/float_bfc_clear.jpg)
+![float_bfc_clear](/images/float_bfc_clear.jpg)
 
 这个方法可以实现两列自适应布局，将右边的宽度去掉，左边宽度固定，右边会自适应宽度。

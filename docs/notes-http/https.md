@@ -44,7 +44,7 @@ HTTPS协议的主要功能基本都依赖于TLS/SSL协议，其实现主要依�
 
 **利用非对称加密实现身份认证和密钥协商，对称加密算法采用协商的密钥对数据加密，基于散列函数验证信息的完整性。**
 
-![加密原理](/webnote/images/https_secret.jpg)
+![加密原理](/images/https_secret.jpg)
 
 ### 加密———混合加密
 
@@ -66,13 +66,13 @@ HTTPS采用对称+非对称混合加密。
 
 数字签名如何生成：
 
-![数字签名生成](/webnote/images/signature_generate.jpg)
+![数字签名生成](/images/signature_generate.jpg)
 
 将一段文本信息用Hash函数生成消息摘要，然后再用发送者的私钥加密生成数字签名，与原文一起发送给接收者。
 
 数字签名如何校验：
 
-![数字签名校验](/webnote/images/signature_check.jpg)
+![数字签名校验](/images/signature_check.jpg)
 
 接收者只有使用发送者的公钥才能解密摘要信息，然后用Hash函数对收到的原文产生一个摘要信息，与收到的摘要信息比对。如果相同，则证明收到的信息是完整的，在传输过程中没有被篡改，完整性得以校验。
 
@@ -84,7 +84,7 @@ HTTPS采用对称+非对称混合加密。
 
 ## HTTPS的工作流程
 
-![https工作流程](/webnote/images/https_work.jpg)
+![https工作流程](/images/https_work.jpg)
 
 1、Client发起https请求，默认连接Server的443端口。
 
