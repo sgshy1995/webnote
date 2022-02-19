@@ -46,7 +46,8 @@ module.exports = {
                 collapsable: true,
                 sidebarDepth: 2,
                 children: [
-                    './notes-sort-algorithm/sort-three'
+                    './notes-sort-algorithm/sort-three',
+                    './notes-sort-algorithm/js-recursion'
                 ]
             },
             {
