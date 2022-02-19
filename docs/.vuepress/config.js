@@ -156,7 +156,8 @@ module.exports = {
                     './notes-array/array-norepeat',
                     './notes-array/array-sort',
                     './notes-array/array-traverse',
-                    './notes-array/array-map-foreach'
+                    './notes-array/array-map-foreach',
+                    './notes-array/array-flat'
                 ]
             },
             {
