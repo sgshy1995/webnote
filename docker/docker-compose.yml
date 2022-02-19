@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+
+  foeye_front:
+    image: sgs/webnote      # 指定服务镜像
+    container_name: webnote    # 容器名称
+    build: # 定义需要构建的内容
+      context: ./  # 选取 Dockerfile 所在工作文件夹
+    restart: always                 # 重启方式
+    ports:                          # 映射端口
+      - "80:80"
+    volumes:                        # 挂载数据卷
+      - /var/www/webnote/dist:/usr/share/nginx/html
+    networks:                       # 加入指定网络
+      - webnote-network
+
+volumes:
+  certbot-etc:
+  certbot-var:
+
+networks:  # 实现通信
+  webnote-network:
+    driver: bridge

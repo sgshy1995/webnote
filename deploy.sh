@@ -23,3 +23,8 @@ git commit -m 'deploy'
 git push -f git@github.com:sgshy1995/webnote.git master:gh-pages
 
 cd -
+
+# 部署到服务器
+scp -r docs/.vuepress/dist root@aliyun:/var/www/webnote &
+scp -r docker root@aliyun:/var/www/webnote &
+ssh root@aliyun "cd /var/www/webnote/docker;docker-compose stop || true;docker-compose down || true;docker-compose build;docker-compose up -d"

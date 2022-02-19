@@ -1,5 +1,5 @@
 module.exports = {
-    base: '/webnote/',
+    base: '/',
     title: '云笔记',
     description: '我的个人知识库，伴我成长',
     themeConfig: {
