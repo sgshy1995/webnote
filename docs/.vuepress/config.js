@@ -37,7 +37,8 @@ module.exports = {
                     './notes-http/cors',
                     './notes-http/jsonp',
                     './notes-http/browser-local-save',
-                    './notes-http/https'
+                    './notes-http/https',
+                    './notes-http/http-http2'
                 ]
             },
             {
@@ -173,7 +174,8 @@ module.exports = {
                     './notes-es6/promise-all',
                     './notes-es6/promise-race',
                     './notes-es6/code-block',
-                    './notes-es6/class'
+                    './notes-es6/class',
+                    './notes-es6/code-destruction'
                 ]
             },
             {
@@ -199,6 +201,15 @@ module.exports = {
                     '/notes-vue/vue-global-variate'
                 ]
             },
+            {
+                title: '优化相关',
+                path: '/optimize/',
+                collapsable: true,
+                sidebarDepth: 2,
+                children: [
+                    '/optimize/web-optimize'
+                ]
+            }
         ]
     }
 }
