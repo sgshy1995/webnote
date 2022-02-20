@@ -102,6 +102,7 @@ module.exports = {
                 sidebarDepth: 2,
                 children: [
                     './notes-dom/dom',
+                    './notes-dom/dom-virtual',
                     './notes-dom/node',
                     './notes-dom/dom-event',
                     './notes-dom/dom-reflow-repaint'
