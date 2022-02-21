@@ -23,6 +23,15 @@ module.exports = {
                 sidebarDepth: 2
             },
             {
+                title: 'JS',
+                path: '/notes-js/',
+                collapsable: true,
+                sidebarDepth: 2,
+                children: [
+                    './notes-js/js-data-type'
+                ]
+            },
+            {
                 title: 'HTTP',
                 path: '/notes-http/',
                 collapsable: true,
