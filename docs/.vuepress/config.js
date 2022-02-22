@@ -150,7 +150,8 @@ module.exports = {
                     './notes-function/function-method',
                     './notes-function/function-immediate',
                     './notes-function/async',
-                    './notes-function/closure'
+                    './notes-function/closure',
+                    './notes-function/function-debounce-throttle'
                 ]
             },
             {
