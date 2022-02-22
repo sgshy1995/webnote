@@ -28,7 +28,9 @@ module.exports = {
                 collapsable: true,
                 sidebarDepth: 2,
                 children: [
-                    './notes-js/js-data-type'
+                    './notes-js/js-data-type',
+                    './notes-js/js-this',
+                    './notes-js/js-immediate-function'
                 ]
             },
             {
