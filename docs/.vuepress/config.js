@@ -49,7 +49,8 @@ module.exports = {
                     './notes-http/jsonp',
                     './notes-http/browser-local-save',
                     './notes-http/https',
-                    './notes-http/http-http2'
+                    './notes-http/http-http2',
+                    './notes-http/http-tcp-udp'
                 ]
             },
             {
@@ -68,6 +69,7 @@ module.exports = {
                 collapsable: true,
                 sidebarDepth: 2,
                 children: [
+                    './notes-html/html-inline-block',
                     './notes-html/html-write',
                     './notes-html/html-src-href',
                     './notes-html/html-seo',
@@ -92,7 +94,6 @@ module.exports = {
                     './notes-css/css-clear-float',
                     './notes-css/css-import',
                     './notes-css/css-selector',
-                    './notes-css/css-inline-block',
                     './notes-css/css-vertical-center',
                     './notes-css/css-flex-3',
                     './notes-css/css-bfc'
