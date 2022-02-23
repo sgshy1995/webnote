@@ -30,7 +30,8 @@ module.exports = {
                 children: [
                     './notes-js/js-data-type',
                     './notes-js/js-this',
-                    './notes-js/js-immediate-function'
+                    './notes-js/js-immediate-function',
+                    './notes-js/js-garbage-collection'
                 ]
             },
             {
@@ -206,6 +207,7 @@ module.exports = {
                 collapsable: true,
                 sidebarDepth: 2,
                 children: [
+                    '/notes-vue/vue-data',
                     '/notes-vue/vue-class-style',
                     '/notes-vue/vue-img-src',
                     '/notes-vue/vue-parcel-one',
