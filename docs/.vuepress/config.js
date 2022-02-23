@@ -210,7 +210,8 @@ module.exports = {
                     '/notes-vue/vue-parcel-one',
                     '/notes-vue/vue-watch-computed',
                     '/notes-vue/vue-watch',
-                    '/notes-vue/vue-global-variate'
+                    '/notes-vue/vue-global-variate',
+                    '/notes-vue/vue-router'
                 ]
             },
             {
