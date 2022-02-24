@@ -51,7 +51,8 @@ module.exports = {
                     './notes-http/browser-local-save',
                     './notes-http/https',
                     './notes-http/http-http2',
-                    './notes-http/http-tcp-udp'
+                    './notes-http/http-tcp-udp',
+                    './notes-http/http-cache'
                 ]
             },
             {
