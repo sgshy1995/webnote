@@ -163,7 +163,9 @@ module.exports = {
                 collapsable: true,
                 sidebarDepth: 2,
                 children: [
-                    './notes-events/event-entrust'
+                    './notes-events/event-entrust',
+                    './notes-events/event-flow',
+                    './notes-events/event-eventloop'
                 ]
             },
             {
