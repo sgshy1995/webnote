@@ -31,7 +31,10 @@ module.exports = {
                     './notes-js/js-data-type',
                     './notes-js/js-this',
                     './notes-js/js-immediate-function',
-                    './notes-js/js-garbage-collection'
+                    './notes-js/js-garbage-collection',
+                    './notes-js/js-in-of',
+                    './notes-js/js-object-is',
+                    './notes-js/js-object-defineproperty'
                 ]
             },
             {
