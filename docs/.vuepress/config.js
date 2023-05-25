@@ -220,7 +220,8 @@ module.exports = {
                     '/notes-vue/vue-watch-computed',
                     '/notes-vue/vue-watch',
                     '/notes-vue/vue-global-variate',
-                    '/notes-vue/vue-router'
+                    '/notes-vue/vue-router',
+                    '/notes-vue/vue-vue2-vue3'
                 ]
             },
             {
